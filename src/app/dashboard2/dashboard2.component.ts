@@ -1,14 +1,15 @@
-import { Component, OnInit, AfterViewInit, Renderer2 } from '@angular/core';
+import { Component, OnInit ,  AfterViewInit, Renderer2} from '@angular/core';
 
 declare const $ : any;
 declare const Plugin : any;
 
+
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.css']
+  selector: 'app-dashboard2',
+  templateUrl: './dashboard2.component.html',
+  styleUrls: ['./dashboard2.component.css']
 })
-export class DashboardComponent implements OnInit, AfterViewInit {
+export class Dashboard2Component implements OnInit , AfterViewInit{
 
   constructor(private renderer : Renderer2) { }
 
